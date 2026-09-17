@@ -1,0 +1,14 @@
+{
+  "name": "sourav-homoeopathic-clinic",
+  "version": "1.0.0",
+  "description": "Full-stack web application for Sourav Homoeopathic Clinic",
+  "private": true,
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "migrate": "cd backend && npm run migrate",
+    "seed": "cd backend && npm run seed"
+  }
+}
